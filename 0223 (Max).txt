@@ -1,0 +1,13 @@
+D:\User\Downloads\OpecdegcdnHandWrite-master\OpenHandWrite-master
+
+
+build_ohw_dist.bat
+
+
+D:\User\Downloads\psychopy-release\psychopy-release
+
+Revised build_ohw_dist.bat as below:
+
+20: set PSYCHOPY_SRC_DIR=%~dp0..\..\psychopy-release.
+
+37: set MARKWRITE_SRC_DIR=%~dp0.\src\markwrite
